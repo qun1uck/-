@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги и товары нашей компании</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Отопительное Оборудование</div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Услуги и товары</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="https://t.me/your_telegram" target="_blank"><img src="img/telegram.png" alt="Telegram"></a>
+                <a href="https://wa.me/your_whatsapp" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+                <div class="phone">+7 (999) 123-45-67</div>
+                <button class="call-button" onclick="openCallBackForm()">Обратный звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Установка и обслуживание отопительного оборудования в Москве</h1>
+                    <div class="services">
+                        <div class="service">Профессионалы</div>
+                        <div class="service">Честность</div>
+                        <div class="service">Открытость</div>
+                        <div class="service">Рациональность</div>
+                    </div>
+                    <button class="leave-request" onclick="openForm()">Оставить заявку</button>
+                </div>
+                <div class="hero-image">
+                    <img src="img/heating-system.jpg" alt="Отопительное оборудование">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h1>Услуги и товары нашей компании</h1>
+                <div class="service-cards">
+                    <!-- Карточка 1 -->
+                    <div class="service-card">
+                        <div class="service-description">
+                            <h2>Проектирование, монтаж, срочное обслуживание систем отопления и водонабжения</h2>
+                            <p class="price">от 50 000 руб</p>
+                            <ul>
+                                <li>Проектирование</li>
+                                <li>Монтаж</li>
+                                <li>Срочное обслуживание</li>
+                                <li>Любой масштаб</li>
+                            </ul>
+                            <button class="service-button">Заказать услугу</button>
+                        </div>
+                        <div class="service-image">
+                            <img src="img/service1.jpg" alt="Проектирование, монтаж, срочное обслуживание систем отопления и водонабжения">
+                        </div>
+                    </div>
+
+                    <!-- Карточка 2 -->
+                    <div class="service-card">
+                        <div class="service-description">
+                            <h2>Установка автоматики</h2>
+                            <p class="price">от 50 000 руб</p>
+                            <ul>
+                                <li>Для систем водоснабжения</li>
+                                <li>Для отопления</li>
+                                <li>Для систем водоснабжения в частных домах</li>
+                                <li>Для систем водоснабжения в многоквартирных домах, отелей, баз отдыха</li>
+                            </ul>
+                            <button class="service-button">Заказать услугу</button>
+                        </div>
+                        <div class="service-image">
+                            <img src="img/service2.jpg" alt="Установка автоматики">
+                        </div>
+                    </div>
+
+                    <!-- Карточка 3 -->
+                    <div class="service-card">
+                        <div class="service-description">
+                            <h2>Промывка систем отопления</h2>
+                            <p class="price">от 50 000 руб</p>
+                            <ul>
+                                <li>Качественно</li>
+                                <li>В любые сроки</li>
+                                <li>В частных и многоквартирных домах</li>
+                                <li>С помощью современного профессионального оборудования</li>
+                            </ul>
+                            <button class="service-button">Заказать услугу</button>
+                        </div>
+                        <div class="service-image">
+                            <img src="img/service3.jpg" alt="Промывка систем отопления">
+                        </div>
+                    </div>
+
+                    <!-- Карточка 4 -->
+                    <div class="service-card">
+                        <div class="service-description">
+                            <h2>Ремонт оборудования</h2>
+                            <p class="price">от 50 000 руб</p>
+                            <ul>
+                                <li>Котельные</li>
+                                <li>Насосные станции</li>
+                                <li>Системы автоматики</li>
+                                <li>Иное оборудование</li>
+                            </ul>
+                            <button class="service-button">Заказать услугу</button>
+                        </div>
+                        <div class="service-image">
+                            <img src="img/service4.jpg" alt="Ремонт оборудования">
+                        </div>
+                    </div>
+
+                    <!-- Карточка 5 -->
+                    <div class="service-card wide-card">
+                        <div class="service-description">
+                            <h2>Продажа оборудования</h2>
+                            <p class="price">от 500 руб</p>
+                            <ul>
+                                <li>Газовые котлы</li>
+                                <li>Электрические котлы</li>
+                                <li>Расходные материалы и комплектующие</li>
+                            </ul>
+                            <button class="service-button">Заказать оборудование</button>
+                        </div>
+                        <div class="service-image">
+                            <img src="img/service5.jpg" alt="Продажа оборудования">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-company">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>О компании</h2>
+                        <p>Мы каждый уделяем монтажу системы отопления достойное внимание. Наши специалисты имеют большой опыт работы с пусконаладочными работами в частных домах и других объектах, что позволяет нам решать задачи любой сложности.</p>
+                        <p>Составленная бригада, установка и наладка систем, что связано с коммуникациями, должны заниматься исключительно профессионалы.</p>
+                        <p>А проводить монтаж систем отопления квалифицированный персонал. Реализуем монтаж систем отопления любой сложности.</p>
+                        <p>Благодаря нашим специалистам, мы можем решать задачи любой сложности. Квалифицированные специалисты нашей компании имеют большой опыт работы с пусконаладочными работами в частных домах и других объектах.</p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <p>1998</p>
+                                <p>Основание компании</p>
+                            </div>
+                            <div class="stat">
+                                <p>12</p>
+                                <p>Квалифицированных мастеров в штате</p>
+                            </div>
+                            <div class="stat">
+                                <p>100</p>
+                                <p>Довольных клиентов</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/about-company.jpg" alt="О компании">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-process">
+            <div class="work-process-image">
+                <img src="img/work-process.jpg" alt="Этапы работы с нами">
+            </div>
+        </section>
+
+        <section class="completed-works">
+            <div class="container">
+                <h2>Выполненные работы</h2>
+                <div class="work-cards">
+                    <!-- Карточка 1 -->
+                    <div class="work-card">
+                        <img src="img/work1.jpg" alt="Система водушного отопления с автоматизацией и диспетчеризацией">
+                        <div class="work-details">
+                            <h3>Система водушного отопления с автоматизацией и диспетчеризацией</h3>
+                            <div class="work-location">
+                                <img src="img/location.png" alt="Геолокация">
+                                <p>Щелковский район</p>
+                            </div>
+                            <div class="work-date">
+                                <img src="img/calendar.png" alt="Календарь">
+                                <p>Май 2023 года</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка 2 -->
+                    <div class="work-card">
+                        <img src="img/work2.jpg" alt="Промышленная система теплохолодоснабжения (VRF системы, канальные электрические нагреватели)">
+                        <div class="work-details">
+                            <h3>Промышленная система теплохолодоснабжения (VRF системы, канальные электрические нагреватели)</h3>
+                            <div class="work-location">
+                                <img src="img/location.png" alt="Геолокация">
+                                <p>Митино</p>
+                            </div>
+                            <div class="work-date">
+                                <img src="img/calendar.png" alt="Календарь">
+                                <p>Ноябрь 2022 года</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <div class="container">
+                <h2>Связаться с нами</h2>
+                <div class="contact-details">
+                    <div class="contact-info">
+                        <div class="contact-phone">
+                            <p>Телефон: +7 (999) 123-45-67</p>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://t.me/your_telegram" target="_blank"><img src="img/telegram.png" alt="Telegram"></a>
+                            <a href="https://wa.me/your_whatsapp" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+                        </div>
+                        <div class="contact-address">
+                            <p>Адрес: Московская область, г. Видное, бульвар Зеленые Аллеи, д. 11</p>
+                        </div>
+                    </div>
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.9742574662912!2d37.71923831533869!3d55.5683823806397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acc27f86a320f%3A0x510d0f6478d2038e!2zMjDCsDIwJzEwLjQiLjMvMjIsIDQ1JzQxLjgiRiAxNzXCsDEwMV8xMDEw!5e0!3m2!1sen!2sru!4v1638612246114!5m2!1sen!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <button class="back-button" onclick="scrollToTop()">Назад</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Form for Request -->
+    <div id="formModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2>Оформить заявку</h2>
+            <form id="requestForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Александр" required>
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                <p>Нажимая на кнопку "Отправить", вы соглашаетесь на <a href="#" onclick="openAgreement(); return false;">обработку персональных данных</a>.</p>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Form for Callback -->
+    <div id="callBackModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCallBackForm()">&times;</span>
+            <h2>Запрос обратного звонка</h2>
+            <form id="callBackForm">
+                <label for="cb-name">Имя:</label>
+                <input type="text" id="cb-name" name="cb-name" placeholder="Александр" required>
+                <label for="cb-phone">Номер телефона:</label>
+                <input type="tel" id="cb-phone" name="cb-phone" placeholder="+7 (___) ___-__-__" required>
+                <p>Нажимая на кнопку "Отправить", вы соглашаетесь на <a href="#" onclick="openAgreement(); return false;">обработку персональных данных</a>.</p>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Agreement Modal -->
+    <div id="agreementModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAgreement()">&times;</span>
+            <h2>Соглашение на обработку персональных данных</h2>
+            <p>Текст соглашения на обработку персональных данных...</p>
+            <button class="close-button" onclick="closeAgreement()">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Alert Modal for Request -->
+    <div id="alertModal" class="modal">
+        <div class="modal-content">
+            <h2>Успешно отправлено!</h2>
+            <p>Мы уже получили заявку — наш специалист свяжется с вами в течение 10 минут для подтверждения.</p>
+            <button class="close-button" onclick="closeAlert()">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Alert Modal for Callback -->
+    <div id="callBackAlertModal" class="modal">
+        <div class="modal-content">
+            <h2>Успешно отправлено!</h2>
+            <p>Мы уже получили ваш запрос — наш специалист перезвонит вам в течение 10 минут.</p>
+            <button class="close-button" onclick="closeCallBackAlert()">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
